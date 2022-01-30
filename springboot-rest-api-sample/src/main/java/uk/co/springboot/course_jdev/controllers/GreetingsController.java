@@ -40,7 +40,7 @@ public class GreetingsController {
      * @return greeting text
      */
     
-   
+   //testing commit
     @GetMapping(value = "listAll") /*First method API*/
     @ResponseBody /*Return the data to response body*/
     public ResponseEntity<List<Users>> listUsers(){
